@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Menu, X } from 'lucide-react';
-import logoImage from 'figma:asset/baa9451616b1b045473e272ca1ff972eb90f2556.png';
+import logoImage from '@/assets/logo.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +37,7 @@ export function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src={logoImage} alt="DNA Fret" className="h-12 w-auto" />
+            <img src={logoImage} alt="ENA Fret" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

@@ -11,7 +11,7 @@ import {
   Leaf,
   ArrowRight,
 } from 'lucide-react';
-import warehouseImage from 'figma:asset/543853a499e982a0aa44c1f7e152d54794866721.png';
+import warehouseImage from "@/assets/warehouseImage.png";
 
 export function About() {
   const values = [
@@ -40,7 +40,7 @@ export function About() {
   const timeline = [
     {
       year: '2008',
-      title: 'Création de DNA Fret',
+      title: 'Création de ENA Fret',
       description: 'Lancement de notre activité avec une petite flotte de 5 camions',
     },
     {
@@ -103,7 +103,7 @@ export function About() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              À propos de <span className="text-orange-500">DNA Fret</span>
+              À propos de <span className="text-orange-500">ENA Fret</span>
             </h1>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
               Leader européen en solutions logistiques depuis plus de 15 ans
@@ -351,7 +351,7 @@ export function About() {
               Rejoignez nos clients satisfaits
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Découvrez comment DNA Fret peut transformer votre chaîne logistique
+              Découvrez comment ENA Fret peut transformer votre chaîne logistique
             </p>
             <Link to="/contact">
               <motion.button

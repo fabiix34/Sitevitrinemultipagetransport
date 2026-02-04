@@ -2,8 +2,8 @@ import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { Truck, Package, Globe, Shield, TrendingUp, Users, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
-import warehouseImage from 'figma:asset/543853a499e982a0aa44c1f7e152d54794866721.png';
-import logisticsImage from 'figma:asset/199f4f6e5cbd7a044220ba39b657a8266ce6cb22.png';
+import warehouseImage from '@/assets/warehouseImage.png';
+import logisticsImage from '@/assets/logisticsImage.png';
 
 export function Home() {
   const stats = [
@@ -47,7 +47,7 @@ export function Home() {
     {
       name: 'Sophie Lefebvre',
       company: 'TechCorp France',
-      text: 'DNA Fret a transformé notre chaîne logistique. Fiabilité et réactivité exceptionnelles.',
+      text: 'ENA Fret a transformé notre chaîne logistique. Fiabilité et réactivité exceptionnelles.',
       rating: 5,
     },
     {
@@ -59,7 +59,7 @@ export function Home() {
     {
       name: 'Julie Martin',
       company: 'EcoDistrib',
-      text: 'Service impeccable et tarifs compétitifs. Je recommande vivement DNA Fret.',
+      text: 'Service impeccable et tarifs compétitifs. Je recommande vivement ENA Fret.',
       rating: 5,
     },
   ];
@@ -262,7 +262,7 @@ export function Home() {
             >
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
                 Pourquoi choisir{' '}
-                <span className="text-orange-500">DNA Fret</span> ?
+                <span className="text-orange-500">ENA Fret</span> ?
               </h2>
               <p className="text-xl text-gray-400 mb-8">
                 Nous combinons expertise, technologie et engagement pour vous offrir un service

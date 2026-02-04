@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { MapPin, Phone, Mail, Clock, Facebook, Linkedin, Twitter } from 'lucide-react';
-import logoImage from 'figma:asset/baa9451616b1b045473e272ca1ff972eb90f2556.png';
+import logoImage from '@/assets/logo.png';
 
 export function Footer() {
   return (
     <footer className="bg-black text-white">
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-orange-600 to-orange-500 py-12">
+      {/* <div className="bg-gradient-to-r from-orange-600 to-orange-500 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
@@ -29,14 +29,14 @@ export function Footer() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <img src={logoImage} alt="DNA Fret" className="h-12 w-auto mb-4" />
+            <img src={logoImage} alt="ENA Fret" className="h-12 w-auto mb-4" />
             <p className="text-gray-400 mb-4">
               Votre partenaire de confiance pour tous vos besoins en transport et logistique internationale.
             </p>
@@ -106,7 +106,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={18} className="text-orange-500 flex-shrink-0" />
-                <span>contact@dnafret.com</span>
+                <span>contact@enafret.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Clock size={18} className="text-orange-500 flex-shrink-0" />
@@ -121,7 +121,7 @@ export function Footer() {
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
-            <p>© 2026 DNA Fret. Tous droits réservés.</p>
+            <p>© 2026 ENA Fret. Tous droits réservés.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white transition-colors">
                 Mentions légales

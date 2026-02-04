@@ -57,7 +57,7 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      content: 'contact@dnafret.com',
+      content: 'contact@enafret.com',
     },
     {
       icon: Clock,
